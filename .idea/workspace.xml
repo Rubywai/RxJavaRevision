@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64211021-f793-4228-9fe3-7fd586bd53ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/rubywai/lesson2_observable_observer/LessonTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rubywai/lesson1_observable/LessonOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rubywai/lesson1_observable/LessonOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rubywai/lesson4_disposable/LessonFour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rubywai/lesson1_observable/LessonOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+            <state relative-caret-position="402">
+              <caret line="36" column="69" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,8 +33,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rubywai/lesson2_observable_observer/LessonTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="313">
+              <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#899#900#0" expanded="true" />
+                <element signature="e#951#952#0" expanded="true" />
+                <element signature="e#1028#1029#0" expanded="true" />
+                <element signature="e#1080#1081#0" expanded="true" />
+                <element signature="e#1160#1161#0" expanded="true" />
+                <element signature="e#1212#1213#0" expanded="true" />
+                <element signature="e#1288#1289#0" expanded="true" />
+                <element signature="e#1329#1330#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rubywai/lesson3_hot_observable/LessonThree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+              <folding>
+                <element signature="e#721#764#0" />
+                <element signature="e#796#840#0" />
+                <element signature="e#947#990#0" />
+                <element signature="e#1022#1066#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/rubywai/lesson4_disposable/LessonFour.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,15 +94,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/rubywai/lesson1_observable_observer/LessonONe.java" />
         <option value="$PROJECT_DIR$/src/com/rubywai/lesson1_observable_observer/LessonOne.java" />
-        <option value="$PROJECT_DIR$/src/com/rubywai/lesson2_observable_observer/LessonTwo.java" />
         <option value="$PROJECT_DIR$/src/com/rubywai/lesson1_observable/LessonOne.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/src/com/rubywai/lesson2_observable_observer/LessonTwo.java" />
+        <option value="$PROJECT_DIR$/src/com/rubywai/lesson3_hot_observable/LessonThree.java" />
+        <option value="$PROJECT_DIR$/src/com/rubywai/lesson4_disposable/LessonFour.java" />
       </list>
     </option>
   </component>
@@ -112,15 +145,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="rubywai" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson1_observable" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RxJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RxJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="rubywai" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson2_observable_observer" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson4_disposable" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RxJava" type="b2602c69:ProjectViewProjectNode" />
@@ -137,6 +162,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -155,7 +181,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.LessonFour">
+    <configuration name="LessonFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rubywai.lesson4_disposable.LessonFour" />
+      <module name="RxJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rubywai.lesson4_disposable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LessonOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rubywai.lesson1_observable.LessonOne" />
       <module name="RxJava" />
@@ -169,8 +208,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LessonThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rubywai.lesson3_hot_observable.LessonThree" />
+      <module name="RxJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rubywai.lesson3_hot_observable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LessonTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rubywai.lesson2_observable_observer.LessonTwo" />
+      <module name="RxJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rubywai.lesson2_observable_observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LessonFour" />
+        <item itemvalue="Application.LessonThree" />
+        <item itemvalue="Application.LessonTwo" />
         <item itemvalue="Application.LessonOne" />
       </list>
     </recent_temporary>
@@ -200,13 +268,13 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32947975" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32658958" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32947975" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32947975" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32658958" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -231,17 +299,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rubywai/lesson2_observable_observer/LessonTwo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rubywai/lesson1_observable/LessonOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="402">
+          <caret line="36" column="69" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rubywai/lesson1_observable/LessonOne.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rubywai/lesson2_observable_observer/LessonTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        <state relative-caret-position="313">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+            <element signature="e#1080#1081#0" expanded="true" />
+            <element signature="e#1160#1161#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+            <element signature="e#1329#1330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rubywai/lesson3_hot_observable/LessonThree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+          <folding>
+            <element signature="e#721#764#0" />
+            <element signature="e#796#840#0" />
+            <element signature="e#947#990#0" />
+            <element signature="e#1022#1066#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rubywai/lesson4_disposable/LessonFour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
