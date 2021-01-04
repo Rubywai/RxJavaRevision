@@ -33,8 +33,14 @@ public class LessonOne {
             Thread.sleep(1000);
             emitter.onNext("four");
             Thread.sleep(1000);
+            emitter.onNext(null);
+//            emitter.onError(new Throwable("This is custom Error"));
             emitter.onComplete();
         });
-        observable.subscribe(System.out::println);
+        observable.subscribe(
+                System.out::println,
+                error -> System.out.println("There is error" + error),
+                () -> System.out.println("complete")
+        );
     }
 }
