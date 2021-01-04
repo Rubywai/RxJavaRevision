@@ -8,12 +8,13 @@ import io.reactivex.rxjava3.disposables.Disposable;
 
 public class LessonFour {
     public static void main(String[] args) {
-        CompositeDisposable disposable = new CompositeDisposable();
+
         Observable<String> observable = Observable.just("one","two","three","four","five");
         observable.subscribe(new Observer<String>() {
+            Disposable disposable;
             @Override
             public void onSubscribe(@NonNull Disposable d) {
-                disposable.add(d);
+                disposable = d;
             }
 
             @Override
@@ -21,6 +22,7 @@ public class LessonFour {
                 if(s.equals("three")){
                     disposable.dispose();
                 }
+                if(!disposable.isDisposed())
                 System.out.println(s);
             }
 

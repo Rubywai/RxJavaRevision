@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64211021-f793-4228-9fe3-7fd586bd53ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/rubywai/lesson4_disposable/LessonFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rubywai/lesson4_disposable/ComposiveDisposable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RxJava/com/rubywai/lesson4_disposable/LessonFour$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RxJava/com/rubywai/lesson4_disposable/LessonFour$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RxJava/com/rubywai/lesson4_disposable/LessonFour.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RxJava/com/rubywai/lesson4_disposable/LessonFour.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rubywai/lesson4_disposable/LessonFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rubywai/lesson4_disposable/LessonFour.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,11 +68,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rubywai/lesson4_disposable/LessonFour.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="182">
+              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#1087#1088#0" expanded="true" />
+                <element signature="e#1211#1212#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/rubywai/lesson4_disposable/ComposiveDisposable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,6 +116,7 @@
         <option value="$PROJECT_DIR$/src/com/rubywai/lesson2_observable_observer/LessonTwo.java" />
         <option value="$PROJECT_DIR$/src/com/rubywai/lesson3_hot_observable/LessonThree.java" />
         <option value="$PROJECT_DIR$/src/com/rubywai/lesson4_disposable/LessonFour.java" />
+        <option value="$PROJECT_DIR$/src/com/rubywai/lesson4_disposable/ComposiveDisposable.java" />
       </list>
     </option>
   </component>
@@ -181,7 +200,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LessonFour">
+  <component name="RunManager" selected="Application.ComposiveDisposableEg">
+    <configuration name="ComposiveDisposableEg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rubywai.lesson4_disposable.ComposiveDisposableEg" />
+      <module name="RxJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rubywai.lesson4_disposable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LessonFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rubywai.lesson4_disposable.LessonFour" />
       <module name="RxJava" />
@@ -236,6 +268,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComposiveDisposableEg" />
         <item itemvalue="Application.LessonFour" />
         <item itemvalue="Application.LessonThree" />
         <item itemvalue="Application.LessonTwo" />
@@ -265,16 +298,16 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32658958" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32658958" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32947975" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32658958" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32658958" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -340,10 +373,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava3/rxjava/3.0.9/rxjava-3.0.9.jar!/io/reactivex/rxjava3/disposables/Disposable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rubywai/lesson4_disposable/LessonFour.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="182">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#1087#1088#0" expanded="true" />
+            <element signature="e#1211#1212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rubywai/lesson4_disposable/ComposiveDisposable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
